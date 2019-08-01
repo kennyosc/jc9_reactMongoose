@@ -29,7 +29,7 @@ class Profile extends Component{
             return (
                 <div className="container mt-5">
                     <Jumbotron >
-                        <img src={'http://localhost:2019/users/'+ this.props.id +'/avatar'} alt="Please choose your avatar" key={new Date()} />
+                        <img src={'https://kennymongoosejc9.herokuapp.com/users/'+ this.props.id +'/avatar'} alt="Please choose your avatar" key={new Date()} />
                         <h1 className="display-3">Hello, {this.props.name} </h1>
                         <p className="lead"></p>
                     </Jumbotron>
